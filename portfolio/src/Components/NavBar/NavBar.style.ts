@@ -13,6 +13,7 @@ const useNavBarStyles = makeStyles({
     position: 'fixed',
     top: 0,
     width: "100%",
+    zIndex: 99
   },
   logo: {
     margin: "0 0 0 150px",
