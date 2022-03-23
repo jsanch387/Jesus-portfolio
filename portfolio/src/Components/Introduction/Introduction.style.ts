@@ -2,7 +2,10 @@ import { makeStyles } from "@mui/styles";
 
 const useIntroductionStyles = makeStyles({
   container: {
-    margin: "0 150px",
+    '&.MuiGrid-root': {
+      marginTop: 200,
+      padding: '0 180px'
+    }
   },
   hello: {
     fontSize: 70,
@@ -33,6 +36,28 @@ const useIntroductionStyles = makeStyles({
     fontSize: 25,
     color: "#B3B3B3",
   },
+  button: {
+    "&.MuiButton-root": {
+      backgroundColor: "#128FFF",
+      width: 150,
+      height: 45,
+      borderRadius: 15,
+      fontFamily: "Hubballi, cursive",
+      fontSize: 20,
+      textTransform: 'none'
+    },
+  },
+  image: {
+    height: 100,
+    width: 100,
+    '&.MuiAvatar-root': {
+      height: 350,
+      width: 350,
+      marginRight: 100,
+      bottom: 40,
+      border: '10px solid #128FFF'
+    }
+  }
 });
 
 export default useIntroductionStyles;
