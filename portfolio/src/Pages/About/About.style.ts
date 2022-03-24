@@ -3,6 +3,7 @@ import { makeStyles } from "@mui/styles";
 const useAboutStyles = makeStyles({
   section: {
     height: "100vh",
+    fontFamily: "Hubballi, cursive",
   },
   container: {
     padding: "10rem 11rem",
