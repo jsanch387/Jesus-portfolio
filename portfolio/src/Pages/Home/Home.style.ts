@@ -7,6 +7,7 @@ const useHomeStyles = makeStyles({
     paddingTop: 130,
     color: 'white'
   },
+
 });
 
 export default useHomeStyles;
