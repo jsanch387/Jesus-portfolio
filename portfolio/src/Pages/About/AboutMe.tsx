@@ -1,15 +1,18 @@
-import { Grid, Typography } from "@mui/material";
+import { Grid } from "@mui/material";
 import Paragraph from "../../Components/AboutDescription/Paragraph";
 import useAboutStyles from "./About.style";
 
 const AboutMe = (): JSX.Element => {
   const classes = useAboutStyles();
 
-  const paragraph1 = "I enjoy Software Development and watching projects come together from start to finish. I am fairly new to development and have a lot to learn but, I hope to develop and design many more apps in the future. I enjoy the process and looking forward to gaining more knowledge";
+  const paragraph1 =
+    "I enjoy Software Development and watching projects come together from start to finish. I am fairly new to development and have a lot to learn but, I hope to develop and design many more apps in the future. I enjoy the process and looking forward to gaining more knowledge.";
 
-  const paragraph2 = "I currently develop frontend code for General Motors. I work on the Online Service Scheduling team and help develop code for various of their applications. I am also helping out with production support and DevOps on the team exposing myself to more of the operation.";
+  const paragraph2 =
+    "I currently develop frontend code for General Motors. I work on the Online Service Scheduling team and help develop code for various of their applications. I am also helping out with production support and DevOps on the team exposing myself to more of the operation.";
 
-  const paragraph3 = "I want to continue learning Web Development and become a Full Stack Developer to better understand the complete application lifecycles. I am also interested in learning Software Engineering/Architecture after mastering Full Stack Development.";
+  const paragraph3 =
+    "I want to continue learning Web Development and become a Full Stack Developer to better understand the complete application lifecycles. I am also interested in learning Software Architecture after mastering Full Stack Development.";
 
   return (
     <section id="about" className={classes.section}>
